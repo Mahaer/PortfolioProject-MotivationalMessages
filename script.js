@@ -37,6 +37,7 @@ const motivationalQuotes = [
     ]
 ];
 
+
 function createNewMessage(){
     let newMessage = ''
     let partOne = motivationalQuotes[0][Math.floor(Math.random() * motivationalQuotes[0].length)]
@@ -45,6 +46,7 @@ function createNewMessage(){
     newMessage = partOne + ' ' + partTwo + ' ' + partThree
     return newMessage
 }
+
 
 console.log('Welcome to the Motivational Quote Generator!')
 console.log('This is your Motivational Quote of the day:')
