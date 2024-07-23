@@ -36,3 +36,12 @@ const motivationalQuotes = [
         "Great things are coming your way."
     ]
 ];
+
+function createNewMessage(){
+    let newMessage = ''
+    let partOne = motivationalQuotes[0][Math.floor(Math.random() * motivationalQuotes[0].length)]
+    let partTwo = motivationalQuotes[1][Math.floor(Math.random() * motivationalQuotes[1].length)]
+    let partThree = motivationalQuotes[2][Math.floor(Math.random() * motivationalQuotes[2].length)]
+    newMessage = partOne + ' ' + partTwo + ' ' + partThree
+    return newMessage
+}
