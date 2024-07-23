@@ -45,3 +45,7 @@ function createNewMessage(){
     newMessage = partOne + ' ' + partTwo + ' ' + partThree
     return newMessage
 }
+
+console.log('Welcome to the Motivational Quote Generator!')
+console.log('This is your Motivational Quote of the day:')
+console.log(createNewMessage())
